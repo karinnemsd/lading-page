@@ -90,3 +90,43 @@ h1 {
     font-size: 18px;
     color: #f9faf8;
 }
+
+.boxes {
+    min-height: 300px;
+}
+
+.boxes .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;    
+}
+
+.boxes h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.box img {
+    padding: 5px;
+    max-width: 7rem;
+    border: #3882f6 3px solid;
+    border-radius: 5px;
+}
+
