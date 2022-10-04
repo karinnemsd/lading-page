@@ -130,3 +130,25 @@ h1 {
     border-radius: 5px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    min-height: 300px;
+    color:#1f2937;
+}
+
+.quote .author {
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+
