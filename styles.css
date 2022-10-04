@@ -143,6 +143,7 @@ h1 {
     font-style: italic;
     min-height: 300px;
     color:#1f2937;
+    gap: 10px;
 }
 
 .quote .author {
@@ -152,3 +153,41 @@ h1 {
     font-weight: bold;
 }
 
+.calltoaction {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction .container {
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    color: #f9faf8;
+    border-radius: 10px;
+    flex: 1 1 auto;
+    padding: 30px;
+    gap: 10px;
+}
+
+.calltoaction h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calltoaction p {
+    font-size: 18px;
+}
+
+.calltoaction .button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: solid 1px #e5e7eb;
+    color:#e5e7eb;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
